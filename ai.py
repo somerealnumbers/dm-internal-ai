@@ -1,14 +1,14 @@
 import pandas as pd
-import ht
+import insight
 
 
 def main():
 
     # reading in the data
-    data = pd.read_cv("./data.csv")
+    data = pd.read_csv("./data.csv")
 
     # defining the ai function
-    def ai(data)
+    def ai(data):
         return insight(data)
 
     # what is the insight?
@@ -16,13 +16,9 @@ def main():
         ai(data=data)
     )
 
-
-
-    print("I LOVE BEER")
-
     # exit message
     print("INSIGHT PRODUCED. GOODBYE")
 
 
-if __name__ == "_in__":
+if __name__ == "__main__":
     main()
