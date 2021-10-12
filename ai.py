@@ -11,8 +11,13 @@ def main():
     def ai(data):
         return insight(data)
 
+    # what is the insight?
+    print(
+        ai(data=data)
+    )
+
     # exit message
-    print("INSIGHT PRODUCED")
+    print("INSIGHT PRODUCED. GOODBYE")
 
 
 if __name__ == "__main__":
