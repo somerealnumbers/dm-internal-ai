@@ -12,9 +12,13 @@ def main():
         return insight(data)
 
     # what is the insight?
-    print(
-        ai(data=data)
-    )
+    y = ai(data=data)
+
+    # print the insight
+    print(y)
+
+    # create a plot
+    y.plot()
 
     # exit message
     print("INSIGHT PRODUCED. GOODBYE")
