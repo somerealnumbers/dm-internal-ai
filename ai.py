@@ -1,5 +1,6 @@
 import pandas as pd
 import insight
+import numpy as np
 
 
 def main():
@@ -9,6 +10,7 @@ def main():
 
     # defining the ai function
     def ai(data):
+        """ the genius ai function """
         return insight(data)
 
     # what is the insight?
