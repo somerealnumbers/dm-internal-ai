@@ -8,7 +8,7 @@ def main():
     # CHANGE
 
     # reading in the data
-    data = pd.read_csv("./data.csv")
+    dat = pd.read_csv("./data.csv")
 
     # defining the ai function
     def ai(data):
@@ -16,7 +16,7 @@ def main():
         return insight(data)
 
     # what is the insight?
-    y = ai(data=data)
+    y = ai(data=dat)
 
     # print the insight
     print(y)
@@ -26,6 +26,8 @@ def main():
 
     # exit message
     print("INSIGHT PRODUCED. GOODBYE")
+    
+    # CHANGE
 
 
 if __name__ == "__main__":
