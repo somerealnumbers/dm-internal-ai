@@ -1,5 +1,5 @@
 import pandas as pd
-import isight
+import insight
 
 
 def main():
@@ -8,15 +8,17 @@ def main():
     data = pd.read_csv("./data.csv")
 
     # defining the ai function
-    def ai
+    def ai(data):
+        return insight(data)
+
     # what is the insight?
     print(
-        ai(dadata)
+        ai(data=data)
     )
 
     # exit message
-    print("INSIRODUCED. GOODBYE")
+    print("INSIGHT PRODUCED. GOODBYE")
 
 
-if __name__ =_main__":
+if __name__ == "__main__":
     main()
